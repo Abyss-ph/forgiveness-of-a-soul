@@ -1,11 +1,14 @@
 using UnityEngine;
-using UnityEngine.InputSystem
+using UnityEngine.InputSystem;
 
 public class NpcInteracao : MonoBehaviour
 {
+    public string[] falas;
     public GameObject interactionUI;
+    // Referência ao DialogueManager
+    public dialogueManager dialogueManager;
+    private bool podeInteragir = false;
     
-    private bool podeInteragir = false
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -29,7 +32,9 @@ public class NpcInteracao : MonoBehaviour
     {
         if (podeInteragir && Input.GetKeyDown(KeyCode.E))
         {
-            
+            Debug.Log("Iniciando diálogo com NPC");
+            dialogueManager.IniciarDialogo(falas);
+            interactionUI.SetActive(false); // Desativa a UI de interação quando o diálogo começa
         }
     }
 

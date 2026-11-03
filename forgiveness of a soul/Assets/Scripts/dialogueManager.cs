@@ -4,59 +4,87 @@ using TMPro;
 
 public class dialogueManager : MonoBehaviour
 {
+
+   //Referências aos elementos da UI
    public GameObject dialoguePanel;
    public TMP_Text dialogueText;
 
+    //guarda todas as falas do dialogo
    private string[] dialogos;
+
+   //Indice qual fala do dialogo está sendo exibida
    private int indiceDialogo = 0;
 
-   private bool dialogoAtivo;
+    // Informa se existe um dialogo acontecendo
+   private bool dialogoAtivo = false;
 
-   public void IniciarDialogo(string falas)
-   {
-    indiceDialogo++
-    if(indiceDialogo< dialogos.Lenght)
+
+    private void Start()
     {
-    dialogueText.text = dialogos[indiceDialogo];
-    }
-    else
-    {
+        //Inicia o painel de dialogo desativado
         dialoguePanel.SetActive(false);
-        dialogoAtivo = false;
     }
-   }
+
     private void Update()
     {
-        if(dialogoAtivo && Input.GetKeyDown(KeyCode.Space))
+        //Verifica se o dialogo está ativo e se o jogador apertou a tecla de avançar
+        if (dialogoAtivo && Input.GetKeyDown(KeyCode.Space))
         {
             ProximaFala();
         }
     }
 
-    private void IniciarDialogo(string[]falas)
+    //inicia um novo dialogo
+    public void IniciarDialogo(string[] falas)
     {
+        //Impede de iniciar um dialogo sem falas
+        if (falas == null || falas.Length == 0)
+        {
+            Debug.LogWarning("Tentativa de iniciar um diálogo sem falas.");
+            return;
+        }
+
+        //guarda as falas recebidas
         dialogos = falas;
+
+        //começa do inicio do dialogo
         indiceDialogo = 0;
-        dialoguePanel.SetActive(true);
+
+        //Ativa o dialogo
         dialogoAtivo = true;
-        
-        dialogueText.text = falas[0];
+        dialoguePanel.SetActive(true);
+
+        //Exibe a primeira fala
+        dialogueText.text = dialogos[indiceDialogo];
     }
 
+    //Exibe a próxima fala do dialogo
     public void ProximaFala()
     {
+        //Passa para a próxima fala
         indiceDialogo++;
-        if(indiceDialogo<dialogos.Lenght)
+
+        //Verifica se ainda existem falas
+        if (indiceDialogo < dialogos.Length)
         {
             dialogueText.text = dialogos[indiceDialogo];
         }
         else
         {
-            dialoguePanel.SetActive(false);
-            dialogoAtivo = false;
+            FinalizarDialogo();
         }
     }
 
+    //Finaliza o dialogo
+    private void FinalizarDialogo()
+    {
+        //Desativa o dialogo
+        dialoguePanel.SetActive(false);
+        dialogoAtivo = false;
+        indiceDialogo = 0;
+        dialogos = null;
+    }
+  
 
 
 
