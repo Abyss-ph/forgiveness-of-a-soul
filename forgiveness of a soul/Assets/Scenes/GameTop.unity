@@ -457,12 +457,12 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Radius: 0.8490932
 --- !u!50 &355993865
 Rigidbody2D:
   serializedVersion: 5
@@ -502,9 +502,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f823c0390f55a1d4098c8e0da9ac45e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NpcInteracao
-  falas: []
-  interactionUI: {fileID: 0}
-  dialogueManager: {fileID: 0}
+  falas:
+  - Nigga...
+  - Niggaaaa...
+  - Niggaaaaaaa...
+  - dhagvsb
+  - sdabhyau
+  - egvfvgse
+  - Negro
+  interactionUI: {fileID: 2038990230}
+  dialogueManager: {fileID: 1804617729}
 --- !u!212 &355993867
 SpriteRenderer:
   serializedVersion: 2
@@ -13301,8 +13308,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13514,6 +13521,8 @@ GameObject:
   - component: {fileID: 867903420}
   - component: {fileID: 867903423}
   - component: {fileID: 867903422}
+  - component: {fileID: 867903424}
+  - component: {fileID: 867903425}
   m_Layer: 0
   m_Name: Nazyeth
   m_TagString: Untagged
@@ -13610,7 +13619,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -13668,6 +13677,31 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &867903424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867903419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa3d2e614a33c424cbe5099a0d16f8da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Inimigos
+--- !u!114 &867903425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867903419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bec2306e6d7eb814f862f6e208928a35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Vida
+  vidaMaxima: 100
 --- !u!1 &967007725
 GameObject:
   m_ObjectHideFlags: 0
@@ -13926,6 +13960,7 @@ GameObject:
   - component: {fileID: 1949995231}
   - component: {fileID: 1949995230}
   - component: {fileID: 1949995229}
+  - component: {fileID: 1949995236}
   m_Layer: 0
   m_Name: Isanel
   m_TagString: Player
@@ -13971,7 +14006,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0216498b2e19bd409aefdce20adb022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ControlsPlayerTop
-  speed: 5
+  speed: 8
 --- !u!50 &1949995232
 Rigidbody2D:
   serializedVersion: 5
@@ -14084,7 +14119,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7468574637948894158, guid: 2cca7d562fcb9bb4cb0c06c75c979fa6, type: 3}
+  m_Sprite: {fileID: -5768425787192123148, guid: 2cca7d562fcb9bb4cb0c06c75c979fa6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -14109,6 +14144,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1949995236
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949995227}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b6dea425df28c4e469f14e236c4bf54d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2038990230
 GameObject:
   m_ObjectHideFlags: 0
