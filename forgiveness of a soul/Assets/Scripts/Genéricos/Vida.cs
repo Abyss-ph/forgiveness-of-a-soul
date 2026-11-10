@@ -4,11 +4,16 @@ public class Vida : MonoBehaviour
 {
     [SerializeField]public int vidaMaxima = 100;
 
+    // Tempo sem receber dano após levar um golpe (use ~1 no jogador, 0 nos inimigos)
+    [SerializeField] private float tempoInvulneravel = 0f;
+
     private Inimigos inimigos;
 
     private int vidaAtual;
 
     private bool estaMorto;
+
+    private float invulneravelAte;
 
     private void Start()
     {
@@ -21,7 +26,12 @@ public class Vida : MonoBehaviour
     {
         if(estaMorto)
         return;
-        
+
+        if(Time.time < invulneravelAte)
+        return;
+
+        invulneravelAte = Time.time + tempoInvulneravel;
+
         vidaAtual = vidaAtual - dano;
 
         if(vidaAtual < 0)
