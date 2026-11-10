@@ -7,6 +7,9 @@ public class Vida : MonoBehaviour
     // Tempo sem receber dano após levar um golpe (use ~1 no jogador, 0 nos inimigos)
     [SerializeField] private float tempoInvulneravel = 0f;
 
+    // Preencher só no jogador: é quem mostra a tela de Game Over
+    [SerializeField] private GameManager gameManager;
+
     private Inimigos inimigos;
 
     private int vidaAtual;
@@ -14,6 +17,8 @@ public class Vida : MonoBehaviour
     private bool estaMorto;
 
     private float invulneravelAte;
+
+    public float PorcentagemVida => vidaMaxima > 0 ? (float)vidaAtual / vidaMaxima : 0f;
 
     private void Start()
     {
@@ -56,6 +61,11 @@ public class Vida : MonoBehaviour
         else
         {
             Debug.Log("Jogador Morreu");
+
+            if(gameManager != null)
+            {
+                gameManager.MostrarGameOver();
+            }
         }
     }
 }

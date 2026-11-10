@@ -18,6 +18,12 @@ public class dialogueManager : MonoBehaviour
     // Informa se existe um dialogo acontecendo
    private bool dialogoAtivo = false;
 
+   //Ação opcional executada quando o dialogo termina (ex.: entregar uma missão)
+   private System.Action aoFinalizarDialogo;
+
+   //Permite que outros scripts saibam se há um dialogo acontecendo
+   public bool DialogoAtivo => dialogoAtivo;
+
 
     private void Start()
     {
@@ -34,8 +40,8 @@ public class dialogueManager : MonoBehaviour
         }
     }
 
-    //inicia um novo dialogo
-    public void IniciarDialogo(string[] falas)
+    //inicia um novo dialogo (aoFinalizar é opcional)
+    public void IniciarDialogo(string[] falas, System.Action aoFinalizar = null)
     {
         //Impede de iniciar um dialogo sem falas
         if (falas == null || falas.Length == 0)
@@ -46,6 +52,7 @@ public class dialogueManager : MonoBehaviour
 
         //guarda as falas recebidas
         dialogos = falas;
+        aoFinalizarDialogo = aoFinalizar;
 
         //começa do inicio do dialogo
         indiceDialogo = 0;
@@ -78,15 +85,20 @@ public class dialogueManager : MonoBehaviour
     //Finaliza o dialogo
     private void FinalizarDialogo()
     {
+        //Guarda a ação antes de limpar o estado
+        System.Action acao = aoFinalizarDialogo;
+
         //Desativa o dialogo
         dialoguePanel.SetActive(false);
         dialogoAtivo = false;
         indiceDialogo = 0;
         dialogos = null;
+        aoFinalizarDialogo = null;
+
+        //Executa a ação (ex.: aceitar a missão)
+        if (acao != null)
+        {
+            acao.Invoke();
+        }
     }
-  
-
-
-
-   
 }

@@ -56,9 +56,22 @@ public class ControlsPlayerTop : MonoBehaviour
 
         direction = direction.normalized; // Normaliza o vetor para evitar movimento mais rápido na diagonal
 
+
+        animator.SetBool("andando", direction != Vector3.zero);
+
+
         // aplicar
         transform.position += direction * speed * Time.deltaTime;
     }
     
     
+    private Animator animator;
+
+    void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
+
+
+
 }

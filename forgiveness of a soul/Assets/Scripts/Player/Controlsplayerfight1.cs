@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Controlsplayerfight : MonoBehaviour
+public class Controlsplayerfight1 : MonoBehaviour
 {
     [SerializeField] private Projetil projetilPrefab;
     [SerializeField] private Transform pontoDeDisparo; // opcional: se vazio, atira do centro do jogador
@@ -16,6 +16,9 @@ public class Controlsplayerfight : MonoBehaviour
 
     void Update()
     {
+        // Jogo pausado (ex.: tela de Game Over): não atira
+        if (Time.timeScale == 0f) return;
+
         // Botão esquerdo do mouse (segurar para atirar continuamente)
         if (Input.GetMouseButton(0) && Time.time >= proximoTiro)
         {
