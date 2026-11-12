@@ -25,6 +25,8 @@ public class Controlsplayerfight1 : MonoBehaviour
             Atirar();
             proximoTiro = Time.time + intervaloEntreTiros;
         }
+
+        if (dialogueManager.EmDialogo) return;
     }
 
     private void Atirar()

@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using TMPro;
 
@@ -15,6 +16,12 @@ public class QuestManager : MonoBehaviour
     private int[] progresso;
 
     public bool MissaoConcluida { get; private set; }
+
+    // NOVO: true enquanto houver uma missão em andamento (usado para não aceitar outra por cima)
+    public bool TemMissaoAtiva => missaoAtual != null;
+
+    // NOVO: disparado uma única vez, no momento em que todos os objetivos ficam completos
+    public event Action OnMissaoConcluida;
 
     private void Awake()
     {
@@ -51,6 +58,12 @@ public class QuestManager : MonoBehaviour
 
         MissaoConcluida = VerificarConclusao();
         AtualizarUI();
+
+        // NOVO: avisa quem estiver ouvindo (ex.: IntroBossController)
+        if (MissaoConcluida)
+        {
+            OnMissaoConcluida?.Invoke();
+        }
     }
 
     // Chamado pelo NPC quando o jogador entrega a missão concluída

@@ -24,11 +24,20 @@ public class dialogueManager : MonoBehaviour
    //Permite que outros scripts saibam se há um dialogo acontecendo
    public bool DialogoAtivo => dialogoAtivo;
 
+   //Qualquer script (ex.: movimento do jogador) pode consultar sem precisar de referência: dialogueManager.EmDialogo
+   public static bool EmDialogo { get; private set; }
+
 
     private void Start()
     {
         //Inicia o painel de dialogo desativado
         dialoguePanel.SetActive(false);
+    }
+
+    private void OnDestroy()
+    {
+        //Variável estática sobrevive à troca de cena: garante que o jogador não fique travado
+        EmDialogo = false;
     }
 
     private void Update()
@@ -59,6 +68,7 @@ public class dialogueManager : MonoBehaviour
 
         //Ativa o dialogo
         dialogoAtivo = true;
+        EmDialogo = true;
         dialoguePanel.SetActive(true);
 
         //Exibe a primeira fala
@@ -93,6 +103,7 @@ public class dialogueManager : MonoBehaviour
         dialogoAtivo = false;
         indiceDialogo = 0;
         dialogos = null;
+        EmDialogo = false;
         aoFinalizarDialogo = null;
 
         //Executa a ação (ex.: aceitar a missão)

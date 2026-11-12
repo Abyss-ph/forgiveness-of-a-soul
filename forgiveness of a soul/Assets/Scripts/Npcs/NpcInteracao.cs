@@ -67,7 +67,15 @@ public class NpcInteracao : MonoBehaviour
         {
             case EstadoMissao.SemMissao:
                 // A missão só começa depois que o diálogo termina
-                dialogueManager.IniciarDialogo(falas, AceitarMissao);
+                // Se já existe outra missão em andamento, o NPC só conversa (não aceita uma nova por cima)
+                if (QuestManager.Instance.TemMissaoAtiva)
+                {
+                    dialogueManager.IniciarDialogo(falas);
+                }
+                else
+                {
+                    dialogueManager.IniciarDialogo(falas, AceitarMissao);
+                }
                 break;
 
             case EstadoMissao.EmAndamento:
@@ -99,5 +107,3 @@ public class NpcInteracao : MonoBehaviour
         estadoMissao = EstadoMissao.Entregue;
     }
 }
-
-

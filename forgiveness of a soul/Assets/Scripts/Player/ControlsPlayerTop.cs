@@ -15,6 +15,13 @@ public class ControlsPlayerTop : MonoBehaviour
 
     void Update()
     {
+        // Durante um diálogo o jogador fica parado (e a animação de andar para)
+        if (dialogueManager.EmDialogo)
+        {
+            animator.SetBool("andando", false);
+            return;
+        }
+
         bool leftPressed = Input.GetKey(KeyCode.A);
         bool rightPressed = Input.GetKey(KeyCode.D);
         bool upPressed = Input.GetKey(KeyCode.W);
