@@ -12,6 +12,9 @@ public class NpcInteracao : MonoBehaviour
     // Se desligado, o NPC funciona como antes: só fala as "falas" acima
     [SerializeField] private bool entregaMissao = false;
     [SerializeField] private Missao missao;
+    // Opcional: nome de uma "marca" gravada quando a missão é aceita (ex.: "missaoSapo").
+    // Outros scripts, como a entrada da caverna, usam essa marca para liberar algo.
+    [SerializeField] private string marcaAoAceitar;
     [SerializeField, TextArea(2, 4)] private string[] falasEmAndamento;   // missão aceita, ainda não terminou
     [SerializeField, TextArea(2, 4)] private string[] falasConcluida;     // missão terminada
 
@@ -99,6 +102,7 @@ public class NpcInteracao : MonoBehaviour
     {
         QuestManager.Instance.IniciarMissao(missao);
         estadoMissao = EstadoMissao.EmAndamento;
+        ProgressoDoJogo.Marcar(marcaAoAceitar);
     }
 
     private void EntregarMissao()

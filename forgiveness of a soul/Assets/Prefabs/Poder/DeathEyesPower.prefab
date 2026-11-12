@@ -170,9 +170,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fc3a8052db8a9f4d8849fc7533152e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ProjetilInimigo
-  velocidade: 6
+  velocidade: 7
   dano: 10
-  tempoDeVida: 0.8
+  tempoDeVida: 5
 --- !u!95 &-4827238470427082836
 Animator:
   serializedVersion: 7
@@ -183,7 +183,7 @@ Animator:
   m_GameObject: {fileID: 1822093966870653822}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b60afc71796c39246ba6929450829da5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
