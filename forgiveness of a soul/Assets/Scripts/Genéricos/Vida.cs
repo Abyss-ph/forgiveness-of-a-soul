@@ -7,8 +7,14 @@ public class Vida : MonoBehaviour
     // Tempo sem receber dano após levar um golpe (use ~1 no jogador, 0 nos inimigos)
     [SerializeField] private float tempoInvulneravel = 0f;
 
-    // Preencher só no jogador: é quem mostra a tela de Game Over
+    // Preencher no jogador (Game Over) e no boss (Vitória)
     [SerializeField] private GameManager gameManager;
+
+    // Marcar só no boss: quando ele morre, mostra o painel de vitória
+    [SerializeField] private bool ehBoss = false;
+
+    // Tempo de espera antes do painel de vitória (para a animação de morte aparecer)
+    [SerializeField] private float atrasoVitoria = 1.5f;
 
     private Inimigos inimigos;
 
@@ -57,6 +63,12 @@ public class Vida : MonoBehaviour
        if(inimigos != null)
         {
             inimigos.Morrer();
+
+            // Se for o boss, mostra o painel de vitória depois do atraso
+            if(ehBoss && gameManager != null)
+            {
+                gameManager.MostrarVitoriaComAtraso(atrasoVitoria);
+            }
         }
         else
         {
