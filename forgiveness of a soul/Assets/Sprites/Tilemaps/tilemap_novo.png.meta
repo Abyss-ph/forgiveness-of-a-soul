@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: 6ee020aa0dc9f5c4abf5c481180bc403
+guid: 0da6ffd60143ac34096738ab5807350d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6451443406764200285
-    second: tilemap_novo-sheet_0
+      213: 8419369334030467727
+    second: tilemap_novo_0
   - first:
-      213: 5151815848724112948
-    second: tilemap_novo-sheet_1
+      213: -5567576002693649610
+    second: tilemap_novo_1
   - first:
-      213: -1488913204608340695
-    second: tilemap_novo-sheet_2
+      213: -3155326913131017214
+    second: tilemap_novo_2
   - first:
-      213: -3324527449312802620
-    second: tilemap_novo-sheet_3
+      213: -476232723939273378
+    second: tilemap_novo_3
   - first:
-      213: 4058458947464169027
-    second: tilemap_novo-sheet_4
+      213: -1316413590604822237
+    second: tilemap_novo_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -112,7 +112,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tilemap_novo-sheet_0
+      name: tilemap_novo_0
       rect:
         serializedVersion: 2
         x: 0
@@ -127,14 +127,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d5157b4e891288950800000000000000
-      internalID: 6451443406764200285
+      spriteID: f8204b33dcb97d470800000000000000
+      internalID: 8419369334030467727
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_1
+      name: tilemap_novo_1
       rect:
         serializedVersion: 2
         x: 16
@@ -149,14 +149,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 436ad6b083dee7740800000000000000
-      internalID: 5151815848724112948
+      spriteID: 63ba473bf1ffbb2b0800000000000000
+      internalID: -5567576002693649610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_2
+      name: tilemap_novo_2
       rect:
         serializedVersion: 2
         x: 32
@@ -171,14 +171,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 92d6ee93451565be0800000000000000
-      internalID: -1488913204608340695
+      spriteID: 20c8890e3e60634d0800000000000000
+      internalID: -3155326913131017214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_3
+      name: tilemap_novo_3
       rect:
         serializedVersion: 2
         x: 112
@@ -193,14 +193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4c8cca126e7ecd1d0800000000000000
-      internalID: -3324527449312802620
+      spriteID: e55de2b5cd41469f0800000000000000
+      internalID: -476232723939273378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_4
+      name: tilemap_novo_4
       rect:
         serializedVersion: 2
         x: 0
@@ -215,14 +215,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3468b1bf8ea825830800000000000000
-      internalID: 4058458947464169027
+      spriteID: 329c08260d82bbde0800000000000000
+      internalID: -1316413590604822237
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_5
+      name: tilemap_novo_5
       rect:
         serializedVersion: 2
         x: 16
@@ -237,14 +237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2976b6c0ebe9ec14c978f2854499027b
-      internalID: -1998960324
+      spriteID: 363dd82a878559c4b8ddaf65381b2fa6
+      internalID: 673244955
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_6
+      name: tilemap_novo_6
       rect:
         serializedVersion: 2
         x: 32
@@ -259,14 +259,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c12e22f6311310243a39174e2a8cab52
-      internalID: -388181070
+      spriteID: 6eb53e704856f4945a7102b923d891e6
+      internalID: 986113129
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_7
+      name: tilemap_novo_7
       rect:
         serializedVersion: 2
         x: 112
@@ -281,14 +281,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85e4ef64124e009408e1f5c3f37f3504
-      internalID: 372498302
+      spriteID: 801cb0373e5beab47a012b18e5cdb3fd
+      internalID: 1314224470
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_8
+      name: tilemap_novo_8
       rect:
         serializedVersion: 2
         x: 0
@@ -303,14 +303,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5797e5c61a726cc448a9368297b6ec74
-      internalID: 952256381
+      spriteID: 507680725ab843b42b00a4724c563420
+      internalID: 157217962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_9
+      name: tilemap_novo_9
       rect:
         serializedVersion: 2
         x: 16
@@ -325,14 +325,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e31aaf2ad3f0b74981b57c0bc8c0a93
-      internalID: -1641203234
+      spriteID: 09d03da004b1dd0429201f7403ef97ac
+      internalID: 831779178
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_10
+      name: tilemap_novo_10
       rect:
         serializedVersion: 2
         x: 32
@@ -347,14 +347,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41caf39312aff7145a27c99747e44a17
-      internalID: 190414208
+      spriteID: a292ba6585f7be4499a8586c25469f0f
+      internalID: 1301996925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_11
+      name: tilemap_novo_11
       rect:
         serializedVersion: 2
         x: 112
@@ -369,14 +369,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 070663b15988c7844b6affde507b1a02
-      internalID: 595673428
+      spriteID: 910bd9af38116914cbc917f9078fd296
+      internalID: 1183585530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_12
+      name: tilemap_novo_12
       rect:
         serializedVersion: 2
         x: 0
@@ -391,14 +391,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74e6c4e165f98fc468268d2e9001196f
-      internalID: -1324972374
+      spriteID: e43d9bfc6772aca4dafe0bcccf859589
+      internalID: 1379617333
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_13
+      name: tilemap_novo_13
       rect:
         serializedVersion: 2
         x: 16
@@ -413,14 +413,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee817923a2848c14d975e1254d7aaef9
-      internalID: 324238857
+      spriteID: 3ee66b40495d21c4384839f086219813
+      internalID: -2052678772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_14
+      name: tilemap_novo_14
       rect:
         serializedVersion: 2
         x: 32
@@ -435,14 +435,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82dd1e012f4df854cad3224b8f4fd550
-      internalID: -1549677186
+      spriteID: 9400ed916aaa82b4ba4deac318b919fb
+      internalID: 627603245
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_15
+      name: tilemap_novo_15
       rect:
         serializedVersion: 2
         x: 0
@@ -457,14 +457,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40df941329183e140bb8a04a2aa0444d
-      internalID: 1586151140
+      spriteID: 773d2c3e031820a4f95661d76c3437a0
+      internalID: -1398178522
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_16
+      name: tilemap_novo_16
       rect:
         serializedVersion: 2
         x: 16
@@ -479,14 +479,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41803518c6300264b81e3b7c3eea19e1
-      internalID: 1984101508
+      spriteID: 20c4ca9204f2d8347bb2869adee935a4
+      internalID: -1452009588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_17
+      name: tilemap_novo_17
       rect:
         serializedVersion: 2
         x: 32
@@ -501,14 +501,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05c5ecdf44d54ee478fe6bb97e3e0cec
-      internalID: 418412928
+      spriteID: 15dd8ba9172fc9c43b42fa896ebe66cf
+      internalID: 650154085
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_18
+      name: tilemap_novo_18
       rect:
         serializedVersion: 2
         x: 0
@@ -523,14 +523,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b17d54b5883319428fc8aa89f2f081f
-      internalID: -2072356431
+      spriteID: 7e55d2c26520c0d4ab5b55dea37a264f
+      internalID: -1028612179
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_19
+      name: tilemap_novo_19
       rect:
         serializedVersion: 2
         x: 16
@@ -545,14 +545,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d5731582d0fb524a8bfa2dc23beaf55
-      internalID: 920606764
+      spriteID: 27ef4c02fc3fb244ea446a4f3ad448b8
+      internalID: 582608256
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_20
+      name: tilemap_novo_20
       rect:
         serializedVersion: 2
         x: 32
@@ -567,14 +567,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1928907248939f49916b356bdf46465
-      internalID: -1501235467
+      spriteID: aa8b6ba8681498b4fbc609c70088b95d
+      internalID: -495170833
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_21
+      name: tilemap_novo_21
       rect:
         serializedVersion: 2
         x: 48
@@ -589,14 +589,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31070a05e2044284f917bff1f77e7d0b
-      internalID: 1558294445
+      spriteID: 4a8d15249b1a53c439b3da765bca656a
+      internalID: -1528808985
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_22
+      name: tilemap_novo_22
       rect:
         serializedVersion: 2
         x: 64
@@ -611,14 +611,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 210ca598bb1f9b94084f7dc03e217bc8
-      internalID: 1484065050
+      spriteID: fdc310eb6921df849a84dbf15309b50d
+      internalID: 1766668989
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_23
+      name: tilemap_novo_23
       rect:
         serializedVersion: 2
         x: 80
@@ -633,14 +633,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63c09cb5e12b2a848a9a56731020656d
-      internalID: 1568770281
+      spriteID: 8468e7c4128df9f46bb1e4dca510dcbb
+      internalID: -1409465027
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_24
+      name: tilemap_novo_24
       rect:
         serializedVersion: 2
         x: 0
@@ -655,14 +655,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0364057e68db6c42a40549c001a8562
-      internalID: 1739713990
+      spriteID: 375b7ba86200a804a98728c0c3f4d5ed
+      internalID: 870234055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_25
+      name: tilemap_novo_25
       rect:
         serializedVersion: 2
         x: 16
@@ -677,14 +677,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfb7004ec648206479f358f9a9274200
-      internalID: -423542959
+      spriteID: fca1818a0dff6f349b68dc581b32018b
+      internalID: -673055097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_26
+      name: tilemap_novo_26
       rect:
         serializedVersion: 2
         x: 32
@@ -699,14 +699,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8d1bb9711ec0ff40b56a631f182c2c6
-      internalID: -838825951
+      spriteID: 3e71261a84662754792201d1e7c4bc11
+      internalID: 838369402
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_27
+      name: tilemap_novo_27
       rect:
         serializedVersion: 2
         x: 48
@@ -721,14 +721,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35c25107390c8cf4c8509de76aec5227
-      internalID: 1234540766
+      spriteID: 07b8b085b1b453346961fe481f12e81b
+      internalID: -999778028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_28
+      name: tilemap_novo_28
       rect:
         serializedVersion: 2
         x: 64
@@ -743,14 +743,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d13140ed708d4f40a7d068b44e8e22f
-      internalID: 66975999
+      spriteID: e2b3e9de5743114428727ed41df6fa67
+      internalID: 1349206864
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_29
+      name: tilemap_novo_29
       rect:
         serializedVersion: 2
         x: 80
@@ -765,14 +765,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35a6670e5f5544b4093142cfbc95c9ac
-      internalID: 819440265
+      spriteID: eb5d88d0b8b02fa469d7030381a0fa5a
+      internalID: 1588102475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_30
+      name: tilemap_novo_30
       rect:
         serializedVersion: 2
         x: 0
@@ -787,14 +787,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa478813eda78b84b942d0033e7fbac0
-      internalID: -757873272
+      spriteID: 69d3ddc5b9a4067439e4fe61e31b8122
+      internalID: -1457682924
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_31
+      name: tilemap_novo_31
       rect:
         serializedVersion: 2
         x: 16
@@ -809,14 +809,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a8f4408a06f2db4796d71875100a3c3
-      internalID: 1449525038
+      spriteID: 4c6afe7adadd32848b7900d77a427ca0
+      internalID: -1186366786
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_32
+      name: tilemap_novo_32
       rect:
         serializedVersion: 2
         x: 32
@@ -831,14 +831,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbd58cbb5bb618e41a7bbb03ed0b8d46
-      internalID: -2017137923
+      spriteID: 87bcf3209e6bd8a45b3cc17882089fd3
+      internalID: 856947520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_33
+      name: tilemap_novo_33
       rect:
         serializedVersion: 2
         x: 48
@@ -853,14 +853,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 156073781c64655458940658b9463366
-      internalID: 1122484494
+      spriteID: a4f2b8a577550204c9f14caa6a481fd5
+      internalID: -1632263057
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_34
+      name: tilemap_novo_34
       rect:
         serializedVersion: 2
         x: 64
@@ -875,14 +875,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0488203eb5a83494bad3fa354c5938f0
-      internalID: -523725024
+      spriteID: 576298e23a345ce4088919c236602ba5
+      internalID: 1740168257
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_novo-sheet_35
+      name: tilemap_novo_35
       rect:
         serializedVersion: 2
         x: 80
@@ -897,8 +897,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23550e3131f9e5a41bcc810b35431298
-      internalID: -2094134217
+      spriteID: 1972d2162b14d724fb3d938e0ed86cc3
+      internalID: 1934243596
       vertices: []
       indices: 
       edges: []
@@ -907,7 +907,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ec101496b7568d848b873e55af5931fc
+    spriteID: 836d354ac9725af41bfa96e5efc51760
     internalID: 0
     vertices: []
     indices: 
@@ -919,42 +919,42 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      tilemap_novo-sheet_0: 6451443406764200285
-      tilemap_novo-sheet_1: 5151815848724112948
-      tilemap_novo-sheet_10: 190414208
-      tilemap_novo-sheet_11: 595673428
-      tilemap_novo-sheet_12: -1324972374
-      tilemap_novo-sheet_13: 324238857
-      tilemap_novo-sheet_14: -1549677186
-      tilemap_novo-sheet_15: 1586151140
-      tilemap_novo-sheet_16: 1984101508
-      tilemap_novo-sheet_17: 418412928
-      tilemap_novo-sheet_18: -2072356431
-      tilemap_novo-sheet_19: 920606764
-      tilemap_novo-sheet_2: -1488913204608340695
-      tilemap_novo-sheet_20: -1501235467
-      tilemap_novo-sheet_21: 1558294445
-      tilemap_novo-sheet_22: 1484065050
-      tilemap_novo-sheet_23: 1568770281
-      tilemap_novo-sheet_24: 1739713990
-      tilemap_novo-sheet_25: -423542959
-      tilemap_novo-sheet_26: -838825951
-      tilemap_novo-sheet_27: 1234540766
-      tilemap_novo-sheet_28: 66975999
-      tilemap_novo-sheet_29: 819440265
-      tilemap_novo-sheet_3: -3324527449312802620
-      tilemap_novo-sheet_30: -757873272
-      tilemap_novo-sheet_31: 1449525038
-      tilemap_novo-sheet_32: -2017137923
-      tilemap_novo-sheet_33: 1122484494
-      tilemap_novo-sheet_34: -523725024
-      tilemap_novo-sheet_35: -2094134217
-      tilemap_novo-sheet_4: 4058458947464169027
-      tilemap_novo-sheet_5: -1998960324
-      tilemap_novo-sheet_6: -388181070
-      tilemap_novo-sheet_7: 372498302
-      tilemap_novo-sheet_8: 952256381
-      tilemap_novo-sheet_9: -1641203234
+      tilemap_novo_0: 8419369334030467727
+      tilemap_novo_1: -5567576002693649610
+      tilemap_novo_10: 1301996925
+      tilemap_novo_11: 1183585530
+      tilemap_novo_12: 1379617333
+      tilemap_novo_13: -2052678772
+      tilemap_novo_14: 627603245
+      tilemap_novo_15: -1398178522
+      tilemap_novo_16: -1452009588
+      tilemap_novo_17: 650154085
+      tilemap_novo_18: -1028612179
+      tilemap_novo_19: 582608256
+      tilemap_novo_2: -3155326913131017214
+      tilemap_novo_20: -495170833
+      tilemap_novo_21: -1528808985
+      tilemap_novo_22: 1766668989
+      tilemap_novo_23: -1409465027
+      tilemap_novo_24: 870234055
+      tilemap_novo_25: -673055097
+      tilemap_novo_26: 838369402
+      tilemap_novo_27: -999778028
+      tilemap_novo_28: 1349206864
+      tilemap_novo_29: 1588102475
+      tilemap_novo_3: -476232723939273378
+      tilemap_novo_30: -1457682924
+      tilemap_novo_31: -1186366786
+      tilemap_novo_32: 856947520
+      tilemap_novo_33: -1632263057
+      tilemap_novo_34: 1740168257
+      tilemap_novo_35: 1934243596
+      tilemap_novo_4: -1316413590604822237
+      tilemap_novo_5: 673244955
+      tilemap_novo_6: 986113129
+      tilemap_novo_7: 1314224470
+      tilemap_novo_8: 157217962
+      tilemap_novo_9: 831779178
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
